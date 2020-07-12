@@ -17,6 +17,7 @@ npm update
 ```javascript
 // src/server/index.js
 const monsterAdapter = require('./vfs/monster-adapter')
+//Give directory where you cloned the adapter
 
 osjs.register(VFSServiceProvider, {
   args: {
